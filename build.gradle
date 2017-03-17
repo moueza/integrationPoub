@@ -1,1 +1,6 @@
-gradle check
+println 'This is executed during the configuration phase.'
+
+task configured {
+    println 'This is also executed during the configuration phase.'
+}
+
